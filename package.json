@@ -1,7 +1,7 @@
 {
   "name": "linter-yaml",
   "main": "./lib/main.js",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "YAML provider for Linter",
   "repository": "https://ferhaty@github.com/ferhaty/linter-yaml",
   "license": "MIT",
