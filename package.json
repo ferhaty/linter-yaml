@@ -1,0 +1,50 @@
+{
+  "name": "linter-yaml",
+  "main": "./lib/main.js",
+  "version": "1.0.0",
+  "description": "YAML provider for Linter",
+  "repository": "https://ferhaty@github.com/ferhaty/linter-yaml",
+  "license": "MIT",
+  "keywords": [
+    "lint",
+    "linter",
+    "yaml",
+    "yamllint",
+    "yaml-lint"
+  ],
+  "bugs": {
+    "url": "https://github.com/ferhaty/linter-yaml/issues"
+  },
+  "engines": {
+    "atom": ">0.95.0"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "atom-linter": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "babel-eslint": "latest"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "rules": {
+      "strict": 0
+    },
+    "env": {
+      "es6": true,
+      "browser": true,
+      "node": true
+    },
+    "globals": {
+      "atom": true
+    }
+  }
+}
